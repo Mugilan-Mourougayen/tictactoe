@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>"x" "o" Game</h1>
+    <h1 class="title">Tic Tac Toe Game</h1>
+    <h1>"x: <span id="blue">Blue</span>" &nbsp;&nbsp; "o: <span id="red">Red</span>" </h1>
+
+    <div class="grid-container">
+        <div class="grid-item" id="1" onclick="myFunction(1)"></div>
+        <div class="grid-item" id="2" onclick="myFunction(2)"></div>
+        <div class="grid-item" id="3" onclick="myFunction(3)" ></div>  
+        <div class="grid-item" id="4" onclick="myFunction(4)"></div>
+        <div class="grid-item" id="5" onclick="myFunction(5)"></div>
+        <div class="grid-item" id="6" onclick="myFunction(6)"></div>  
+        <div class="grid-item" id="7" onclick="myFunction(7)"></div>
+        <div class="grid-item" id="8" onclick="myFunction(8)"></div>
+        <div class="grid-item" id="9" onclick="myFunction(9)"></div>  
+      </div>
+
+    <script src="index.js"></script>
+
 </body>
 </html>
